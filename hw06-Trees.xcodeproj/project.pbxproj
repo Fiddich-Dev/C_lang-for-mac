@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BC472F82834EC5D00CCADDC /* test-tree1.c in Sources */ = {isa = PBXBuildFile; fileRef = 3BC472F72834EC5D00CCADDC /* test-tree1.c */; };
+		3BC472FA2834EC7000CCADDC /* test-tree3.c in Sources */ = {isa = PBXBuildFile; fileRef = 3BC472F92834EC7000CCADDC /* test-tree3.c */; };
 		3BE01B0F2834E7B80039D99D /* tree1.c in Sources */ = {isa = PBXBuildFile; fileRef = 3BE01B0E2834E7B80039D99D /* tree1.c */; };
 		3BE01B122834E82F0039D99D /* test-tree2.c in Sources */ = {isa = PBXBuildFile; fileRef = 3BE01B112834E82F0039D99D /* test-tree2.c */; };
 		3BE01B152834E8490039D99D /* tree2.c in Sources */ = {isa = PBXBuildFile; fileRef = 3BE01B142834E8490039D99D /* tree2.c */; };
 		3BE01B182834E8A10039D99D /* tree3.c in Sources */ = {isa = PBXBuildFile; fileRef = 3BE01B172834E8A10039D99D /* tree3.c */; };
-		3BE01B1A2834E8E00039D99D /* test-tree1.c in Sources */ = {isa = PBXBuildFile; fileRef = 3BE01B192834E8E00039D99D /* test-tree1.c */; };
-		3BE01B1C2834E8F30039D99D /* test-tree3.c in Sources */ = {isa = PBXBuildFile; fileRef = 3BE01B1B2834E8F30039D99D /* test-tree3.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3BC472F72834EC5D00CCADDC /* test-tree1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "test-tree1.c"; sourceTree = SOURCE_ROOT; };
+		3BC472F92834EC7000CCADDC /* test-tree3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "test-tree3.c"; sourceTree = SOURCE_ROOT; };
 		3BE01B002834E7540039D99D /* hw06-Trees */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "hw06-Trees"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BE01B0D2834E7B80039D99D /* tree1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tree1.h; sourceTree = "<group>"; };
 		3BE01B0E2834E7B80039D99D /* tree1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tree1.c; sourceTree = "<group>"; };
@@ -36,8 +38,6 @@
 		3BE01B142834E8490039D99D /* tree2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tree2.c; sourceTree = "<group>"; };
 		3BE01B162834E8A10039D99D /* tree3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tree3.h; sourceTree = "<group>"; };
 		3BE01B172834E8A10039D99D /* tree3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tree3.c; sourceTree = "<group>"; };
-		3BE01B192834E8E00039D99D /* test-tree1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "test-tree1.c"; sourceTree = SOURCE_ROOT; };
-		3BE01B1B2834E8F30039D99D /* test-tree3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "test-tree3.c"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,9 +70,9 @@
 		3BE01B022834E7540039D99D /* hw06-Trees */ = {
 			isa = PBXGroup;
 			children = (
-				3BE01B192834E8E00039D99D /* test-tree1.c */,
+				3BC472F72834EC5D00CCADDC /* test-tree1.c */,
 				3BE01B112834E82F0039D99D /* test-tree2.c */,
-				3BE01B1B2834E8F30039D99D /* test-tree3.c */,
+				3BC472F92834EC7000CCADDC /* test-tree3.c */,
 				3BE01B0E2834E7B80039D99D /* tree1.c */,
 				3BE01B0D2834E7B80039D99D /* tree1.h */,
 				3BE01B142834E8490039D99D /* tree2.c */,
@@ -142,10 +142,10 @@
 			files = (
 				3BE01B0F2834E7B80039D99D /* tree1.c in Sources */,
 				3BE01B122834E82F0039D99D /* test-tree2.c in Sources */,
+				3BC472F82834EC5D00CCADDC /* test-tree1.c in Sources */,
+				3BC472FA2834EC7000CCADDC /* test-tree3.c in Sources */,
 				3BE01B152834E8490039D99D /* tree2.c in Sources */,
 				3BE01B182834E8A10039D99D /* tree3.c in Sources */,
-				3BE01B1C2834E8F30039D99D /* test-tree3.c in Sources */,
-				3BE01B1A2834E8E00039D99D /* test-tree1.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
